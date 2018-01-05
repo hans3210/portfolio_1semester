@@ -1,0 +1,3165 @@
+body {
+    margin: 0px;
+
+}
+
+/************* navbar *******************/
+
+.navbar:before,
+.navbar:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+
+.navbar:after {
+    clear: both;
+}
+
+.container_navbar {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    background: #e9ece5;
+}
+
+.header-left,
+.header-right {
+    position: relative;
+    float: left;
+}
+
+.header-left {
+    padding: 10px 0 10px 0;
+}
+
+
+
+.header-right label {
+    position: absolute;
+    top: -45px;
+    right: 0;
+    cursor: pointer;
+
+}
+
+.hamburger {
+    position: absolute;
+    line-height: 40px;
+    color: #3b3a36;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.hamburger:hover {
+    color: #b3c2bf;
+}
+
+
+.header-right {
+    width: 90%;
+    text-align: right;
+}
+
+#open {
+    display: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: #3b3a36;
+    font-family: 'Libre Baskerville', serif;
+}
+
+nav > a {
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 44px;
+    padding: 0 0 0 4vw;
+
+
+}
+
+nav > a:hover {
+    color: #b3c2bf;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    line-height: 44px;
+    padding: 0 0 0 4vw;
+    font-size: 14px;
+}
+
+
+.dropdown > a:hover {
+    color: #b3c2bf;
+}
+
+.dropdown > i:hover {
+    color: #b3c2bf;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #e9ece5;
+    min-width: 160px;
+    z-index: 10;
+}
+
+.dropdown-content a {
+    float: none;
+    color: #3b3a36;
+    padding: 5px 5px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 14px;
+}
+
+.dropdown-content a:hover {
+    color: #b3c2bf;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+
+}
+
+.dropdown:hover nav {}
+
+/* Landscape phones and down */
+
+@media (max-width: 799px) {
+
+    nav {
+        height: 0;
+        overflow: hidden;
+    }
+    input[type="checkbox"]:checked + nav {
+        height: 400px;
+    }
+    nav > a {
+        padding: 0 1vw;
+        display: block;
+
+    }
+
+    .header-right {
+        width: 100%;
+        text-align: center;
+
+    }
+}
+
+/************* navbar slut *******************/
+
+/************* font *******************/
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5vw;
+    font-weight: 500;
+    color: #e9ece5;
+
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 37px;
+    font-weight: 500;
+    color: #3b3a36;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #3b3a36;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18.7px;
+    font-weight: 500;
+    color: #3b3a36;
+}
+
+p {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #3b3a36;
+}
+
+/************* font slut *******************/
+
+/************* stilartsite*******************/
+
+#stilartsite {}
+
+#stilartsite .splash {
+    background-image: url(img/stilartsite/7_desktop.jpg);
+    width: 100vw;
+    height: 56vw;
+    background-size: 100vw;
+}
+
+#stilartsite h2 {
+    text-align: center;
+    background-color: #e9ece5;
+    padding: 100px;
+    margin: 0px;
+}
+
+
+
+#moodboard1 .container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    background-color: #c1dfd9;
+
+}
+
+#moodboard1 .column_narrow {
+    flex: 1;
+    flex-basis: 400px;
+    padding: 3vw;
+    align-self: center;
+
+}
+
+#moodboard1 .column_wide {
+    flex: 2;
+    flex-basis: 600px;
+    background-image: url(img/stilartsite/moodboard/Artboard%201.jpg);
+    background-size: 100%;
+    height: 31.7vw;
+}
+
+@media screen and (max-width: 1063px) {
+    #moodboard1 .column_wide {
+        height: 56vw;
+    }
+}
+
+
+
+
+
+#ide1 {
+    background-color: #e9ece5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 100px 0px 100px 0px;
+}
+
+
+#ide1 .row {
+    flex-basis: 600px;
+    padding: 1vw 1vw 1vw 1vw;
+}
+
+#ide1 .row img {
+    width: 100%;
+    padding: 1vw 0 1vw 0;
+
+}
+
+
+
+#moodboard2 .container {
+    display: flex;
+    flex-wrap: wrap;
+
+    padding: 0px;
+    background-color: #c1dfd9;
+
+}
+
+#moodboard2 .column_narrow {
+    flex: 1;
+    flex-basis: 400px;
+    padding: 3vw;
+    align-self: center;
+}
+
+#moodboard2 .column_wide {
+    flex: 2;
+    flex-basis: 600px;
+    background-image: url(img/stilartsite/moodboard/Artboard%202.jpg);
+    background-size: 100%;
+    height: 31.7vw;
+}
+
+@media screen and (max-width: 1063px) {
+    #moodboard2 .column_narrow {
+        order: 1;
+    }
+
+    #moodboard2 .column_wide {
+        height: 56vw;
+        order: 2;
+    }
+}
+
+
+#ide2 {
+    background-color: #e9ece5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 100px 0px 100px 0px;
+}
+
+
+#ide2 .row {
+    flex-basis: 600px;
+    padding: 1vw 1vw 1vw 1vw;
+}
+
+#ide2 .row img {
+    width: 100%;
+    padding: 1vw 0 1vw 0;
+
+}
+
+#moodboard3 {
+    background-color: #e9ece5;
+
+}
+
+#moodboard3 h3 {
+    margin-top: 0px;
+
+}
+
+#moodboard3 .container {
+    padding: 0 7vw 0 7vw;
+
+}
+
+#ide3 {
+    background-color: #e9ece5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 45px 0px 45px 0px;
+}
+
+
+#ide3 .row {
+    flex-basis: 600px;
+    padding: 1vw 1vw 1vw 1vw;
+}
+
+#ide3 .row img {
+    width: 100%;
+    padding: 1vw 0 1vw 0;
+
+}
+
+#udvaelgelse {
+    background-color: #e9ece5;
+}
+
+#udvaelgelse h3 {
+    margin-top: 0px;
+}
+
+#udvaelgelse .container_images {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 7vw 0 7vw;
+}
+
+#udvaelgelse .container {
+    padding: 0 7vw 0 7vw;
+}
+
+#udvaelgelse .row {
+    flex-grow: 1;
+    flex-basis: 380px;
+    padding: 1vw 1vw 1vw 1vw;
+
+}
+
+#udvaelgelse img {
+    width: 100%;
+}
+
+#eksekvering {
+    background-color: #e9ece5;
+    padding: 100px 0 100px 0;
+}
+
+#eksekvering .container_text {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 7vw 0 7vw;
+
+}
+
+#eksekvering .column_wide {
+    flex: 2;
+    flex-basis: 700px;
+
+}
+
+#eksekvering .column_narrow {
+    flex: 1;
+    flex-basis: 400px;
+
+}
+
+#eksekvering .container_images {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 7vw 50px 7vw;
+}
+
+#eksekvering .container {
+    padding: 0 7vw 0 7vw;
+}
+
+#eksekvering .row {
+    flex-grow: 1;
+    flex-basis: 380px;
+    padding: 1vw 1vw 1vw 1vw;
+
+}
+
+#eksekvering img {
+    width: 100%;
+}
+
+
+#endelige_splash .container {
+    display: flex;
+    flex-wrap: wrap;
+
+    padding: 0px;
+    background-color: #c1dfd9;
+
+}
+
+#endelige_splash .column_narrow {
+    flex: 1;
+    flex-basis: 400px;
+    padding: 3vw;
+    align-self: center;
+    text-align: center;
+}
+
+#endelige_splash .column_wide {
+    flex: 2;
+    flex-basis: 600px;
+    background-image: url(img/stilartsite/splashbillede/desktop.jpg);
+    background-size: 100%;
+    height: 31.7vw;
+}
+
+@media screen and (max-width: 1063px) {
+    #endelige_splash .column_narrow {
+        order: 1;
+        text-align: left;
+    }
+
+    #endelige_splash .column_wide {
+        height: 56vw;
+        order: 2;
+    }
+}
+
+
+#udgaver_af_splash .container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    background-color: #c1dfd9;
+
+}
+
+#udgaver_af_splash .column_narrow {
+    flex: 1;
+    flex-basis: 400px;
+    padding: 3vw;
+    align-self: center;
+
+
+}
+
+#udgaver_af_splash .column_wide {
+    flex: 2;
+    flex-basis: 600px;
+    background-image: url(img/stilartsite/splashbillede/Sk%C3%A6rmbillede%202017-09-12%2022.48.40.png);
+    background-size: 100%;
+    height: 33.7vw;
+}
+
+@media screen and (max-width: 1063px) {
+    #udgaver_af_splash .column_wide {
+        height: 58vw;
+    }
+}
+
+
+#inspiration_til_ikon {
+    background-color: #e9ece5;
+
+}
+
+#inspiration_til_ikon h3 {
+    margin: 0px;
+    padding-bottom: 10px;
+}
+
+#inspiration_til_ikon .container {
+    padding: 100px 7vw 0px 7vw;
+    background-color: #b3c2bf;
+
+}
+
+#inspirationsbilleder_til_ikon {
+    background-color: #b3c2bf;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 0 100px 0;
+}
+
+
+#inspirationsbilleder_til_ikon .row {
+    flex-basis: 600px;
+    padding: 1vw 1vw 1vw 1vw;
+}
+
+#inspirationsbilleder_til_ikon .row img {
+    width: 100%;
+    padding: 1vw 0 1vw 0;
+
+}
+
+
+#skitser_ikon .container {
+    display: flex;
+    flex-wrap: wrap;
+
+    padding: 0px;
+    background-color: #e9ece5;
+
+}
+
+#skitser_ikon .column_narrow {
+    flex: 1;
+    flex-basis: 400px;
+    padding: 3vw;
+    align-self: center;
+    text-align: center;
+}
+
+#skitser_ikon .column_wide {
+    flex: 2;
+    flex-basis: 600px;
+    background-image: url(img/stilartsite/ikon/skitse.JPG);
+    background-size: 60vw;
+    height: 42.7vw;
+
+}
+
+
+@media screen and (max-width: 1063px) {
+    #skitser_ikon .column_narrow {
+        order: 1;
+        text-align: left;
+    }
+
+    #skitser_ikon .column_wide {
+        height: 71vw;
+        order: 2;
+        background-size: 100vw
+    }
+}
+
+
+#mockup_ikon .container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    background-color: #e9ece5;
+
+}
+
+#mockup_ikon .column_narrow {
+    flex: 1;
+    flex-basis: 400px;
+    padding: 3vw;
+    align-self: center;
+    text-align: center;
+
+}
+
+#mockup_ikon .column_wide {
+    flex: 2;
+    flex-basis: 600px;
+    background-image: url(img/stilartsite/ikon/ikon_mockup-01.jpg);
+    background-size: 100%;
+    height: 31vw;
+}
+
+@media screen and (max-width: 1063px) {
+    #mockup_ikon .column_wide {
+        height: 54vw;
+        text-align: left;
+    }
+}
+
+
+
+#ikon_screendumps {
+    background-color: #b3c2bf;
+    padding: 100px 0 100px 0;
+}
+
+#ikon_screendumps h3 {
+    margin-top: 0px;
+}
+
+
+#ikon_screendumps .container_images {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 7vw 0 7vw;
+}
+
+#ikon_screendumps .container {
+    padding: 0 7vw 0 7vw;
+}
+
+#ikon_screendumps .row {
+    flex-grow: 1;
+    flex-basis: 380px;
+    padding: 1vw 1vw 1vw 1vw;
+
+}
+
+#ikon_screendumps img {
+    width: 100%;
+}
+
+
+
+#beskrivelse_ikon .container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    background-color: #e9ece5;
+
+}
+
+#beskrivelse_ikon .column_wide {
+    flex: 2;
+    flex-basis: 600px;
+    padding: 3vw;
+    align-self: center;
+
+
+}
+
+#beskrivelse_ikon .column_narrow {
+    flex: 1;
+    flex-basis: 400px;
+    background-image: url(img/stilartsite/ikon/ikon_260x260px.jpg);
+    background-size: 100%;
+    height: 35vw;
+
+}
+
+@media screen and (max-width: 1063px) {
+    #beskrivelse_ikon .column_narrow {
+        height: 95vw;
+    }
+}
+
+
+
+
+#beslutning_former_farver {
+    background-color: #c1dfd9;
+    padding: 100px 0 100px 0;
+}
+
+#beslutning_former_farver h3 {
+    margin-top: 0px;
+}
+
+#beslutning_former_farver .container_images {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 7vw 0 7vw;
+}
+
+#beslutning_former_farver .container {
+    padding: 0 7vw 0 7vw;
+}
+
+#beslutning_former_farver .row {
+    flex-grow: 1;
+    flex-basis: 380px;
+    padding: 1vw 1vw 1vw 1vw;
+
+}
+
+#beslutning_former_farver img {
+    width: 100%;
+}
+
+
+
+
+#styletile_screendumps {
+    background-color: #c1dfd9;
+}
+
+#styletile_screendumps h3 {
+    margin-top: 0px;
+}
+
+
+#styletile_screendumps .container_images {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 7vw 100px 7vw;
+}
+
+#styletile_screendumps .container {
+    padding: 0 7vw 0 7vw;
+}
+
+#styletile_screendumps .row {
+    flex-grow: 1;
+    flex-basis: 380px;
+    padding: 1vw 1vw 1vw 1vw;
+
+}
+
+#styletile_screendumps img {
+    width: 100%;
+}
+
+
+
+
+#faerdige_styletile .container {
+    display: flex;
+    flex-wrap: wrap;
+
+    padding: 0px;
+    background-color: #e9ece5;
+
+}
+
+#faerdige_styletile .column_narrow {
+    flex: 1;
+    flex-basis: 400px;
+    padding: 3vw;
+    align-self: center;
+    text-align: center;
+}
+
+#faerdige_styletile .column_wide {
+    flex: 2;
+    flex-basis: 600px;
+    background-image: url(img/stilartsite/styletile/styletile.jpg);
+    background-size: 100%;
+    height: 39.5vw;
+}
+
+@media screen and (max-width: 1063px) {
+    #faerdige_styletile .column_narrow {
+        order: 1;
+        text-align: left;
+    }
+
+    #faerdige_styletile .column_wide {
+        height: 70vw;
+        order: 2;
+    }
+}
+
+
+
+#stilartsite_knapper {
+    padding: 100px 0 100px 0;
+    background-color: #3b3a36;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#stilartsite_knapper a {
+    background-color: #3b3a36;
+    border-style: solid;
+    color: #e9ece5;
+    width: 200px;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+#stilartsite_knapper a:hover {
+    background-color: #e9ece5;
+    border-style: solid;
+    border-color: #e9ece5;
+    color: #3b3a36;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#stilartsite_knapper a h4 {
+    color: #e9ece5;
+    margin: 0px;
+}
+
+#stilartsite_knapper a:hover h4 {
+    color: #3b3a36;
+}
+
+
+
+
+#besoeg_stilartsite .container {
+    position: relative;
+
+}
+
+#besoeg_stilartsite .image {
+    background-image: url(img/stilartsite/7_desktop.jpg);
+    height: 30vw;
+    background-size: 100vw;
+    opacity: 0.3;
+    transition: .5s ease;
+    backface-visibility: hidden;
+
+}
+
+
+
+#besoeg_stilartsite .middle {
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#besoeg_stilartsite .container:hover .image {
+    opacity: 0;
+    cursor: pointer;
+}
+
+#besoeg_stilartsite h1 {
+    color: #3b3a36;
+}
+
+
+
+
+
+
+footer {
+    text-align: center;
+}
+
+
+/************* stilartsite slut *******************/
+
+/************* heart planet *******************/
+
+#virksomhedsvideo {
+    background-color: #e9ece5;
+    text-align: center;
+}
+
+#virksomhedsvideo h2 {
+    background-color: #e9ece5;
+    padding: 7vw 100px 7vw 100px;
+    margin: 0px;
+}
+
+iframe {
+    height: 50vw;
+    width: 80vw;
+    padding: 0 0 100px 0;
+    border: none;
+}
+
+#redesign_hjemmeside h2 {
+    background-color: #c1dfd9;
+    text-align: center;
+    padding: 7vw 100px 7vw 100px;
+    margin: 0px;
+}
+
+
+#heartplanet {
+    background-color: #c1dfd9;
+    padding: 0 7vw 100px 7vw;
+    margin-top: -26px;
+}
+
+
+
+
+#koncept_ide {
+    background-color: #c1dfd9;
+    padding: 0 7vw 100px 7vw;
+    margin-top: -26px;
+}
+
+
+
+#styletile .container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    background-color: #e9ece5;
+
+}
+
+#styletile .column_narrow {
+    flex: 1;
+    flex-basis: 400px;
+    padding: 3vw;
+    align-self: center;
+    text-align: center;
+
+}
+
+#styletile .column_wide {
+    flex: 2;
+    flex-basis: 600px;
+    background-image: url(img/heartplanet/styletile.png);
+    background-size: 100%;
+    height: 38vw;
+}
+
+@media screen and (max-width: 1063px) {
+    #styletile .column_wide {
+        height: 67vw;
+    }
+
+    #styletile .column_narrow {
+        text-align: left;
+    }
+}
+
+
+
+
+#layout_diagram {
+    background-color: #b3c2bf;
+    padding: 100px 0 100px 0;
+}
+
+#layout_diagram h3 {
+    margin-top: 0px;
+}
+
+
+#layout_diagram .container_images {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 7vw 0 7vw;
+}
+
+#layout_diagram .container {
+    padding: 0 7vw 0 7vw;
+}
+
+#layout_diagram .row {
+    flex-grow: 1;
+    flex-basis: 380px;
+    padding: 1vw 1vw 1vw 1vw;
+
+}
+
+#layout_diagram img {
+    width: 100%;
+}
+
+
+
+
+#kodning_eksempel {
+    background-color: #c1dfd9;
+
+}
+
+#kodning_eksempel h3 {
+    margin-top: 0px;
+
+}
+
+#kodning_eksempel .container {
+    padding: 100px 7vw 100px 7vw;
+
+}
+
+
+#kodning_refleksion {
+    background-color: #c1dfd9;
+    margin-top: -26px;
+
+}
+
+#kodning_refleksion h3 {
+    margin-top: 0px;
+
+}
+
+#kodning_refleksion .container {
+    padding: 0 7vw 100px 7vw;
+}
+
+
+
+#heartplanet_knapper {
+    padding: 100px 0 100px 0;
+    background-color: #3b3a36;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#heartplanet_knapper a {
+    background-color: #3b3a36;
+    border-style: solid;
+    color: #e9ece5;
+    width: 200px;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+#heartplanet_knapper a:hover {
+    background-color: #e9ece5;
+    border-style: solid;
+    border-color: #e9ece5;
+    color: #3b3a36;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#heartplanet_knapper a h4 {
+    color: #e9ece5;
+    margin: 0px;
+}
+
+#heartplanet_knapper a:hover h4 {
+    color: #3b3a36;
+}
+
+
+
+#besoeg_heartplanet .container {
+    position: relative;
+
+}
+
+#besoeg_heartplanet .image {
+    background-image: url(img/heartplanet/heartplanet_splash.jpg);
+    height: 30vw;
+    background-size: 100vw;
+    opacity: 0.3;
+    transition: .5s ease;
+    backface-visibility: hidden;
+
+}
+
+
+
+#besoeg_heartplanet .middle {
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#besoeg_heartplanet .container:hover .image {
+    opacity: 0;
+    cursor: pointer;
+}
+
+#besoeg_heartplanet h1 {
+    color: #3b3a36;
+}
+
+#besoeg_heartplanet {
+    text-align: center;
+}
+
+.heartplanet_splash {
+    background-image: url(img/heartplanet/heartplanet_splash.jpg);
+    width: 100vw;
+    height: 56vw;
+    background-size: 100vw;
+}
+
+/************* heart planet slut *******************/
+
+/************* ronald og nørden *******************/
+
+#ronaldognorden .ronaldognorden_splash {
+    background-image: url(img/ronald_norden/titelbillede-01.svg);
+    width: 100vw;
+    height: 56vw;
+    background-size: 100vw;
+}
+
+#ronaldognorden h2 {
+    text-align: center;
+    background-color: #e9ece5;
+    padding: 100px;
+    margin: 0px;
+}
+
+
+
+#ronald_koncept {
+    background-color: #c1dfd9;
+
+}
+
+#ronald_koncept h3 {
+    margin-top: 0px;
+}
+
+#ronald_koncept h4 {
+    margin-bottom: -10px;
+
+}
+
+
+#ronald_koncept .container {
+    padding: 100px 7vw 100px 7vw;
+}
+
+
+
+
+#dramaturgi .container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    background-color: #e9ece5;
+
+}
+
+#dramaturgi .column_narrow {
+    flex: 1;
+    flex-basis: 400px;
+    padding: 3vw;
+    align-self: center;
+
+}
+
+#dramaturgi .column_wide {
+    flex: 2;
+    flex-basis: 600px;
+    background-image: url(img/ronald_norden/aktantmodellen.png);
+    background-size: 100%;
+    height: 29.2vw;
+}
+
+@media screen and (max-width: 1063px) {
+    #dramaturgi .column_wide {
+        height: 51vw;
+    }
+}
+
+
+
+
+#ronald_moodboard .container {
+    display: flex;
+    flex-wrap: wrap;
+
+    padding: 0px;
+    background-color: #e9ece5;
+
+}
+
+#ronald_moodboard .column_narrow {
+    flex: 1;
+    flex-basis: 400px;
+    padding: 3vw;
+    align-self: center;
+}
+
+#ronald_moodboard .column_wide {
+    flex: 2;
+    flex-basis: 600px;
+    background-image: url(img/ronald_norden/moodboard.jpg);
+    background-size: 100%;
+    height: 34.4vw;
+}
+
+@media screen and (max-width: 1063px) {
+    #ronald_moodboard .column_narrow {
+        order: 1;
+    }
+
+    #ronald_moodboard .column_wide {
+        height: 56vw;
+        order: 2;
+    }
+}
+
+
+
+#moodboard_text {
+    background-color: #b3c2bf;
+
+}
+
+#moodboard_text h4 {
+    margin-bottom: -10px;
+
+}
+
+#moodboard_text h3 {
+    margin-top: 0px;
+}
+
+
+#moodboard_text .container {
+    padding: 100px 7vw 100px 7vw;
+}
+
+
+
+#ronaldognorden_skitser {
+    background-color: #c1dfd9;
+
+}
+
+#ronaldognorden_skitser h3 {
+    margin-top: 0px;
+
+}
+
+#ronaldognorden_skitser .container {
+    padding: 100px 7vw 0 7vw;
+
+}
+
+#karakterer_former {
+    background-color: #c1dfd9;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+#karakterer_former .row {
+    flex-basis: 600px;
+    padding: 1vw 1vw 1vw 1vw;
+}
+
+#karakterer_former .row img {
+    width: 100%;
+    padding: 1vw 0 1vw 0;
+
+}
+
+
+#karakterer_bevaegelse {
+    background-color: #c1dfd9;
+    padding: 0 0 100px 0;
+}
+
+#karakterer_bevaegelse h3 {
+    margin-top: 0px;
+}
+
+#karakterer_bevaegelse .container_images {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 7vw 0 7vw;
+}
+
+#karakterer_bevaegelse .container {
+    padding: 100px 7vw 0 7vw;
+}
+
+#karakterer_bevaegelse .row {
+    flex-grow: 1;
+    flex-basis: 380px;
+    padding: 1vw 1vw 1vw 1vw;
+
+}
+
+#karakterer_bevaegelse img {
+    width: 100%;
+}
+
+
+
+
+
+#rentegnet_karakterdesign .container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    background-color: #e9ece5;
+
+}
+
+#rentegnet_karakterdesign .column_narrow {
+    flex: 1;
+    flex-basis: 400px;
+    padding: 3vw;
+    align-self: center;
+    text-align: center;
+
+}
+
+#rentegnet_karakterdesign .column_wide {
+    flex: 2;
+    flex-basis: 600px;
+    background-image: url(img/ronald_norden/karakter_rentegnet-04.svg);
+    background-size: 100%;
+    height: 50vw;
+}
+
+@media screen and (max-width: 1063px) {
+    #rentegnet_karakterdesign .column_wide {
+        height: 90vw;
+    }
+
+    #rentegnet_karakterdesign .column_narrow {
+        text-align: left;
+    }
+}
+
+
+
+
+#rentegnet_baggrund .container {
+    display: flex;
+    flex-wrap: wrap;
+
+    padding: 0px;
+    background-color: #e9ece5;
+
+}
+
+#rentegnet_baggrund .column_narrow {
+    flex: 1;
+    flex-basis: 400px;
+    padding: 3vw;
+    align-self: center;
+    text-align: center;
+}
+
+#rentegnet_baggrund .column_wide {
+    flex: 2;
+    flex-basis: 600px;
+    background-image: url(img/ronald_norden/baggrund.svg);
+    background-size: 100%;
+    height: 31vw;
+}
+
+@media screen and (max-width: 1063px) {
+    #rentegnet_baggrund .column_narrow {
+        order: 1;
+        text-align: left;
+    }
+
+    #rentegnet_baggrund .column_wide {
+        height: 56vw;
+        order: 2;
+    }
+}
+
+
+
+
+#ronaldognorden_ekstra {
+    background-color: #c1dfd9;
+    padding: 0 0 100px 0;
+}
+
+#ronaldognorden_ekstra h3 {
+    margin-top: 0px;
+}
+
+#ronaldognorden_ekstra .container_images {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 7vw 0 7vw;
+}
+
+#ronaldognorden_ekstra .container {
+    padding: 100px 7vw 0 7vw;
+}
+
+#ronaldognorden_ekstra .row {
+    flex-grow: 1;
+    flex-basis: 380px;
+    padding: 1vw 1vw 1vw 1vw;
+
+}
+
+#ronaldognorden_ekstra img {
+    width: 100%;
+}
+
+
+
+
+#grafik_valg .container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    background-color: #e9ece5;
+
+}
+
+#grafik_valg .column_narrow {
+    flex: 1;
+    flex-basis: 400px;
+    padding: 3vw;
+    align-self: center;
+    text-align: center;
+
+}
+
+#grafik_valg .column_wide {
+    flex: 2;
+    flex-basis: 600px;
+    background-image: url(img/ronald_norden/baggrund%20med%20ekstra%20grafik-01.svg);
+    background-size: 100%;
+    height: 31.6vw;
+}
+
+@media screen and (max-width: 1063px) {
+    #grafik_valg .column_wide {
+        height: 56vw;
+    }
+
+    #grafik_valg .column_narrow {
+        text-align: left;
+    }
+}
+
+
+
+
+#karakterer_udtryk .container {
+    display: flex;
+    flex-wrap: wrap;
+
+    padding: 0px;
+    background-color: #e9ece5;
+
+}
+
+#karakterer_udtryk .column_narrow {
+    flex: 1;
+    flex-basis: 400px;
+    padding: 3vw;
+    align-self: center;
+    text-align: center;
+}
+
+#karakterer_udtryk .column_wide {
+    flex: 2;
+    flex-basis: 600px;
+    background-image: url(img/ronald_norden/karakter_rentegnet-03.svg);
+    background-size: 100%;
+    height: 38vw;
+}
+
+@media screen and (max-width: 1063px) {
+    #karakterer_udtryk .column_narrow {
+        order: 1;
+        text-align: left;
+    }
+
+    #karakterer_udtryk .column_wide {
+        height: 66vw;
+        order: 2;
+    }
+}
+
+
+
+
+#ronald_kodning {
+    background-color: #c1dfd9;
+    padding: 100px 0 100px 0;
+}
+
+#ronald_kodning h3 {
+    margin-top: 0px;
+}
+
+#ronald_kodning .container_images {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 7vw 0 7vw;
+}
+
+#ronald_kodning .container {
+    padding: 0 7vw 0 7vw;
+}
+
+#ronald_kodning .row {
+    flex-grow: 1;
+    flex-basis: 380px;
+    padding: 1vw 1vw 1vw 1vw;
+
+}
+
+#ronald_kodning img {
+    width: 100%;
+}
+
+
+
+
+
+#ronald_knapper {
+    padding: 100px 0 100px 0;
+    background-color: #3b3a36;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#ronald_knapper a {
+    background-color: #3b3a36;
+    border-style: solid;
+    color: #e9ece5;
+    width: 200px;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+#ronald_knapper a:hover {
+    background-color: #e9ece5;
+    border-style: solid;
+    border-color: #e9ece5;
+    color: #3b3a36;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#ronald_knapper a h4 {
+    color: #e9ece5;
+    margin: 0px;
+}
+
+#ronald_knapper a:hover h4 {
+    color: #3b3a36;
+}
+
+
+
+
+#spil .container {
+    position: relative;
+
+}
+
+#spil .image {
+    background-image: url(img/ronald_norden/titelbillede-01.svg);
+    height: 30vw;
+    background-size: 100vw;
+    opacity: 0.3;
+    transition: .5s ease;
+    backface-visibility: hidden;
+
+}
+
+
+
+#spil .middle {
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#spil .container:hover .image {
+    opacity: 0;
+    cursor: pointer;
+}
+
+#spil h1 {
+    color: #3b3a36;
+}
+
+/************* ronald og nørden slut *******************/
+
+/************* kea app *******************/
+
+#kea_app .keaapp_splash {
+    background-image: url(img/kea_app/splash.jpg);
+    width: 100vw;
+    height: 56vw;
+    background-size: 100vw;
+}
+
+#kea_app h2 {
+    text-align: center;
+    background-color: #e9ece5;
+    padding: 100px;
+    margin: 0px;
+}
+
+
+
+#ide_udvikling {
+    background-color: #c1dfd9;
+
+}
+
+#ide_udvikling h3 {
+    margin-top: 0px;
+}
+
+#ide_udvikling h4 {
+    margin-bottom: -10px;
+
+}
+
+
+#ide_udvikling .container {
+    padding: 100px 7vw 100px 7vw;
+}
+
+
+
+
+
+#keaapp_ide2_3 {
+    background-color: #c1dfd9;
+    padding: 0 0 100px 0;
+}
+
+#keaapp_ide2_3 h3 {
+    margin-top: 0px;
+}
+
+#keaapp_ide2_3 .container_images {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 7vw 0 7vw;
+}
+
+#keaapp_ide2_3 .row {
+    flex-grow: 1;
+    flex-basis: 380px;
+    padding: 1vw 1vw 1vw 1vw;
+
+}
+
+#keaapp_ide2_3 img {
+    width: 100%;
+}
+
+
+
+
+#persona .container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    background-color: #e9ece5;
+
+}
+
+#persona .column_narrow {
+    flex: 1;
+    flex-basis: 400px;
+    padding: 3vw;
+    align-self: center;
+    text-align: center;
+}
+
+#persona .column_wide {
+    flex: 2;
+    flex-basis: 600px;
+    background-image: url(img/kea_app/Persona_Christina.jpg);
+    background-size: 100%;
+    height: 42vw;
+}
+
+@media screen and (max-width: 1063px) {
+    #persona .column_wide {
+        height: 72vw;
+    }
+
+    #persona .column_narrow {
+        text-align: left;
+    }
+}
+
+
+
+
+#keaapp_ide1 {
+    padding: 100px 7vw 100px 7vw;
+    background-color: #b3c2bf;
+}
+
+#keaapp_ide1 .img-container1 {
+
+    flex: 1.5;
+    flex-basis: 224.5px;
+    padding: 1vw 1vw 1vw 1vw;
+
+}
+
+#keaapp_ide1 .img-container2 {
+
+    flex: 2.67;
+    flex-basis: 400px;
+    padding: 1vw 1vw 1vw 1vw;
+}
+
+#keaapp_ide1 .img-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#keaapp_ide1 img {
+    width: 100%;
+    height: auto;
+
+}
+
+
+
+
+#keaapp_moodboard .container {
+    display: flex;
+    flex-wrap: wrap;
+
+    padding: 0px;
+    background-color: #e9ece5;
+
+}
+
+#keaapp_moodboard .column_narrow {
+    flex: 1;
+    flex-basis: 400px;
+    padding: 3vw;
+    align-self: center;
+    text-align: center;
+}
+
+#keaapp_moodboard .column_wide {
+    flex: 2;
+    flex-basis: 600px;
+    background-image: url(img/kea_app/Moodboard.png);
+    background-size: 100%;
+    height: 43vw;
+}
+
+@media screen and (max-width: 1063px) {
+    #keaapp_moodboard .column_narrow {
+        order: 1;
+        text-align: left;
+    }
+
+    #keaapp_moodboard .column_wide {
+        height: 74vw;
+        order: 2;
+    }
+}
+
+
+
+
+#keaapp_styletile .container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    background-color: #e9ece5;
+
+}
+
+#keaapp_styletile .column_narrow {
+    flex: 1;
+    flex-basis: 400px;
+    padding: 3vw;
+    align-self: center;
+    text-align: center;
+}
+
+#keaapp_styletile .column_wide {
+    flex: 2;
+    flex-basis: 600px;
+    background-image: url(img/kea_app/Styletile.jpg);
+    background-size: 100%;
+    height: 42vw;
+}
+
+@media screen and (max-width: 1063px) {
+    #keaapp_styletile .column_wide {
+        height: 73vw;
+    }
+
+    #keaapp_styletile .column_narrow {
+        text-align: left;
+    }
+}
+
+
+
+
+#keaapp_design {
+    background-color: #c1dfd9;
+    padding: 100px 7vw 100px 7vw;
+}
+
+#keaapp_design h3 {
+    margin-top: 0px;
+}
+
+#keaapp_design .container_images {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+#keaapp_design .row {
+    flex-grow: 1;
+    flex-basis: 380px;
+    padding: 1vw 1vw 1vw 1vw;
+
+}
+
+#keaapp_design img {
+    width: 100%;
+}
+
+
+
+#keaap_ikon .container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    background-color: #e9ece5;
+
+}
+
+#keaap_ikon .column_wide {
+    flex: 2;
+    flex-basis: 600px;
+    padding: 3vw;
+    align-self: center;
+    text-align: center;
+
+}
+
+#keaap_ikon .column_narrow {
+    flex: 1;
+    flex-basis: 400px;
+    background-image: url(img/kea_app/kea_ikon-01-01.svg);
+    background-size: 100%;
+    height: 36vw;
+
+}
+
+@media screen and (max-width: 1063px) {
+    #keaap_ikon .column_narrow {
+        height: 95vw;
+        order: 2;
+
+    }
+
+    #keaap_ikon .column_wide {
+        order: 1;
+        text-align: left;
+    }
+}
+
+
+
+
+#keaapp_knapper {
+    padding: 100px 0 100px 0;
+    background-color: #3b3a36;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#keaapp_knapper a {
+    background-color: #3b3a36;
+    border-style: solid;
+    color: #e9ece5;
+    width: 200px;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+#keaapp_knapper a:hover {
+    background-color: #e9ece5;
+    border-style: solid;
+    border-color: #e9ece5;
+    color: #3b3a36;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#keaapp_knapper a h4 {
+    color: #e9ece5;
+    margin: 0px;
+}
+
+#keaapp_knapper a:hover h4 {
+    color: #3b3a36;
+}
+
+
+
+
+
+#keaapp_website .container {
+    position: relative;
+
+}
+
+#keaapp_website .image {
+    background-image: url(img/kea_app/splash.jpg);
+    height: 30vw;
+    background-size: 100vw;
+    opacity: 0.3;
+    transition: .5s ease;
+    backface-visibility: hidden;
+
+}
+
+
+
+#keaapp_website .middle {
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#keaapp_website .container:hover .image {
+    opacity: 0;
+    cursor: pointer;
+}
+
+#keaapp_website h1 {
+    color: #3b3a36;
+}
+
+/************* kea app slut *******************/
+
+
+/************* co create *******************/
+
+#cocreate .keaapp_splash {
+    background-image: url(img/co_create/splash_republikken.jpg);
+    width: 100vw;
+    height: 56vw;
+    background-size: 100vw;
+}
+
+#cocreate h2 {
+    text-align: center;
+    background-color: #e9ece5;
+    padding: 100px;
+    margin: 0px;
+}
+
+
+
+#experience_map {
+    background-color: #c1dfd9;
+    padding: 100px 7vw 100px 7vw;
+}
+
+#experience_map h3 {
+    margin-top: 0px;
+}
+
+#experience_map .container_images {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+#experience_map .container {
+
+}
+
+#experience_map .row {
+    flex-grow: 1;
+    flex-basis: 380px;
+    padding: 1vw 1vw 1vw 1vw;
+
+}
+
+#experience_map img {
+    width: 100%;
+}
+
+
+
+
+#Virksomhedsbeskrivelse {
+    background-color: #b3c2bf;
+
+}
+
+#Virksomhedsbeskrivelse h3 {
+    margin-top: 0px;
+}
+
+#Virksomhedsbeskrivelse h4 {
+    margin-bottom: -10px;
+
+}
+
+
+#Virksomhedsbeskrivelse .container {
+    padding: 100px 7vw 100px 7vw;
+}
+
+
+#cocreate_persona {
+    background-color: #c1dfd9;
+
+}
+
+#cocreate_persona h3 {
+    margin-top: 0px;
+}
+
+#cocreate_persona h4 {
+    margin-bottom: -10px;
+
+}
+
+
+#cocreate_persona .container {
+    padding: 100px 7vw 100px 7vw;
+}
+
+
+
+
+
+#persona_images {
+    background-color: #c1dfd9;
+    padding: 0 0 100px 0;
+}
+
+#persona_images h3 {
+    margin-top: 0px;
+}
+
+#persona_images .container_images {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 7vw 0 7vw;
+}
+
+#persona_images .row {
+    flex-grow: 1;
+    flex-basis: 380px;
+    padding: 1vw 1vw 1vw 1vw;
+
+}
+
+#persona_images img {
+    width: 100%;
+}
+
+
+
+
+#Business_model_canvas .container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    background-color: #e9ece5;
+
+}
+
+#Business_model_canvas .column_narrow {
+    flex: 1;
+    flex-basis: 400px;
+    padding: 3vw;
+    align-self: center;
+    text-align: center;
+}
+
+#Business_model_canvas .column_wide {
+    flex: 2;
+    flex-basis: 600px;
+    background-image: url(img/co_create/businessmodelcanvas.jpg);
+    background-size: 100%;
+    height: 42vw;
+}
+
+@media screen and (max-width: 1063px) {
+    #Business_model_canvas .column_wide {
+        height: 72vw;
+    }
+
+    #Business_model_canvas .column_narrow {
+        text-align: left;
+    }
+}
+
+
+
+
+#cocreate_designcharette {
+    padding: 100px 7vw 100px 7vw;
+    background-color: #b3c2bf;
+}
+
+#cocreate_designcharette .img-container1 {
+
+    flex: 2.67;
+    flex-basis: 400px;
+    padding: 1vw 1vw 1vw 1vw;
+
+
+}
+
+#cocreate_designcharette .img-container2 {
+
+    flex: 1.5;
+    flex-basis: 224.5px;
+    padding: 1vw 1vw 1vw 1vw;
+}
+
+#cocreate_designcharette .img-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#cocreate_designcharette img {
+    width: 100%;
+    height: auto;
+
+}
+
+
+
+
+
+#cocreate_storyboard .container {
+    display: flex;
+    flex-wrap: wrap;
+
+    padding: 0px;
+    background-color: #e9ece5;
+
+}
+
+#cocreate_storyboard .column_narrow {
+    flex: 1;
+    flex-basis: 400px;
+    padding: 3vw;
+    align-self: center;
+    text-align: center;
+}
+
+#cocreate_storyboard .column_wide {
+    flex: 2;
+    flex-basis: 600px;
+    background-image: url(img/co_create/story_board.jpg);
+    background-size: 100%;
+    height: 43vw;
+}
+
+@media screen and (max-width: 1063px) {
+    #cocreate_storyboard .column_narrow {
+        order: 1;
+        text-align: left;
+    }
+
+    #cocreate_storyboard .column_wide {
+        height: 74vw;
+        order: 2;
+    }
+}
+
+
+
+
+#cocreate_valg_ide {
+    background-color: #b3c2bf;
+
+}
+
+#cocreate_valg_ide h3 {
+    margin-top: 0px;
+}
+
+#cocreate_valg_ide h4 {
+    margin-bottom: -10px;
+
+}
+
+
+#cocreate_valg_ide .container {
+    padding: 100px 7vw 100px 7vw;
+}
+
+
+
+
+#cocreate_moodboard .container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    background-color: #e9ece5;
+
+}
+
+#cocreate_moodboard .column_narrow {
+    flex: 1;
+    flex-basis: 400px;
+    padding: 3vw;
+    align-self: center;
+    text-align: center;
+}
+
+#cocreate_moodboard .column_wide {
+    flex: 2;
+    flex-basis: 600px;
+    background-image: url(img/co_create/moodboard.svg);
+    background-size: 100%;
+    height: 41vw;
+    background-color: white;
+}
+
+@media screen and (max-width: 1063px) {
+    #cocreate_moodboard .column_wide {
+        height: 72vw;
+    }
+
+    #cocreate_moodboard .column_narrow {
+        text-align: left;
+    }
+}
+
+
+
+
+#cocreate_styletile .container {
+    display: flex;
+    flex-wrap: wrap;
+
+    padding: 0px;
+    background-color: #e9ece5;
+
+}
+
+#cocreate_styletile .column_narrow {
+    flex: 1;
+    flex-basis: 400px;
+    padding: 3vw;
+    align-self: center;
+    text-align: center;
+}
+
+#cocreate_styletile .column_wide {
+    flex: 2;
+    flex-basis: 600px;
+    background-image: url(img/co_create/styletile.svg);
+    background-size: 100%;
+    height: 40vw;
+    background-color: white;
+}
+
+@media screen and (max-width: 1063px) {
+    #cocreate_styletile .column_narrow {
+        order: 1;
+        text-align: left;
+    }
+
+    #cocreate_styletile .column_wide {
+        height: 69vw;
+        order: 2;
+    }
+}
+
+
+
+#proev_app {
+    background-color: #c1dfd9;
+    text-align: center;
+    padding: 100px 7vw 100px 7vw;
+}
+
+#proev_app iframe {
+    padding: 0px;
+}
+
+
+
+
+
+#cocreate_knapper {
+    padding: 100px 0 100px 0;
+    background-color: #3b3a36;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#cocreate_knapper a {
+    background-color: #3b3a36;
+    border-style: solid;
+    color: #e9ece5;
+    width: 250px;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+#cocreate_knapper a:hover {
+    background-color: #e9ece5;
+    border-style: solid;
+    border-color: #e9ece5;
+    color: #3b3a36;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#cocreate_knapper a h4 {
+    color: #e9ece5;
+    margin: 0px;
+}
+
+#cocreate_knapper a:hover h4 {
+    color: #3b3a36;
+}
+
+
+
+
+#cocreate_website .container {
+    position: relative;
+
+}
+
+#cocreate_website .image {
+    background-image: url(img/co_create/splash_republikken.jpg);
+    height: 30vw;
+    background-size: 100vw;
+    opacity: 0.3;
+    transition: .5s ease;
+    backface-visibility: hidden;
+
+}
+
+
+
+#cocreate_website .middle {
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#cocreate_website .container:hover .image {
+    opacity: 0;
+    cursor: pointer;
+}
+
+#cocreate_website h1 {
+    color: #3b3a36;
+}
+/************* co create slut *******************/
+
+/************* biografi *******************/
+
+#biografi h2 {
+    background-color: #e9ece5;
+    text-align: center;
+    margin: 0px;
+    padding: 100px 7vw 100px 7vw;
+}
+
+#om_mig .container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    background-color: #c1dfd9;
+
+}
+
+#om_mig .column_narrow {
+    flex: 1;
+    flex-basis: 400px;
+    padding: 3vw;
+    align-self: center;
+
+
+}
+
+#om_mig .column_wide {
+    flex: 2;
+    flex-basis: 600px;
+    background-image: url(img/biografi/profil_redi.jpg);
+    background-size: 100%;
+    height: 50vw;
+
+}
+
+@media screen and (max-width: 1063px) {
+    #om_mig .column_wide {
+        height: 95vw;
+        order: 1;
+    }
+
+    #om_mig .column_narrow {
+
+        order: 2;
+    }
+}
+
+
+
+
+#cv {
+    padding: 100px 7vw 100px 7vw;
+    text-align: center;
+    background-color: #e9ece5;
+}
+
+#cv .container {
+    max-width: 50vw;
+    margin: auto;
+}
+
+#cv img {
+    max-width: 400px;
+}
+
+
+
+
+#firma {
+    background-color: #b3c2bf;
+}
+
+#firma h2 {
+    background-color: #b3c2bf;
+}
+
+#firma img {
+    width: 100%;
+}
+
+#firma .container_text {
+    padding: 100px 7vw 100px 7vw;
+}
+
+#firma .container {
+    padding: 0  7vw 0 7vw;
+}
+
+#handplate_images {
+    padding: 0 6vw 100px 6vw;
+
+}
+
+#handplate_images .container_wide {
+    padding: 1vw 1vw 1vw 1vw;
+}
+
+
+#handplate_images .container_small {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+}
+
+#handplate_images .row {
+    flex-grow: 1;
+    flex-basis: 380px;
+    padding: 1vw 1vw 1vw 1vw;
+
+}
+
+
+
+
+
+#handplate_website .container {
+    position: relative;
+
+}
+
+#handplate_website .image {
+    background-image: url(img/biografi/firma/1handplate_01_2880x1400.jpg);
+    height: 30vw;
+    background-size: 100vw;
+    opacity: 0.3;
+    transition: .5s ease;
+    backface-visibility: hidden;
+
+}
+
+
+
+#handplate_website .middle {
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#handplate_website .container:hover .image {
+    opacity: 0;
+    cursor: pointer;
+}
+
+#handplate_website h1 {
+    color: #3b3a36;
+}
+/************* biografi slut *******************/
+
+
+/************* kontakt *******************/
+
+#kontakt {
+    background-color: #c1dfd9;
+    height: 93.5vh;
+}
+
+#kontakt h3 {
+    margin-bottom: 50px;
+}
+
+#kontakt h4 {
+    margin-bottom: -10px;
+}
+
+
+
+#kontakt .container {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+
+#kontakt .icons {
+    font-size: 20px;
+    color: #3b3a36;
+    padding: 50px 0 0 0;
+
+}
+
+#kontakt .icons i {
+    padding-right: 25px;
+}
+
+#kontakt a:hover {
+    color: #b3c2bf;
+}
+
+
+
+
+
+/************* kontakt slut *******************/
+
+
+/************* portfolio site *******************/
+
+
+#portfolio_site .portfoliosite_splash {
+    background-image: url(img/forside/splash-assets/desktop.jpg);
+    width: 100vw;
+    height: 56vw;
+    background-size: 100vw;
+}
+
+#portfolio_site h2 {
+    padding: 100px 0 100px 0;
+    text-align: center;
+    background-color: #e9ece5;
+    margin: 0px;
+
+
+}
+
+
+
+
+
+#portfolio_inspiration h3 {
+    margin-top: 0px;
+}
+
+#portfolio_inspiration .container {
+    padding: 100px 7vw 100px 7vw;
+    background-color: #c1dfd9;
+}
+
+
+
+
+
+#inspiration_billeder {
+    background-color: #c1dfd9;
+    padding: 0 0 100px 0;
+}
+
+#inspiration_billeder h3 {
+    margin-top: 0px;
+}
+
+#inspiration_billeder .container_images {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 7vw 0 7vw;
+}
+
+#inspiration_billeder .row {
+    flex-grow: 1;
+    flex-basis: 380px;
+    padding: 1vw 1vw 1vw 1vw;
+
+}
+
+#inspiration_billeder img {
+    width: 100%;
+}
+
+
+
+
+#portfoliosite_moodboard .container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    background-color: #e9ece5;
+
+}
+
+#portfoliosite_moodboard .column_narrow {
+    flex: 1;
+    flex-basis: 400px;
+    padding: 3vw;
+    align-self: center;
+    text-align: center;
+}
+
+#portfoliosite_moodboard .column_wide {
+    flex: 2;
+    flex-basis: 600px;
+    background-image: url(img/portfolio_site/moodboard_portfoliosite-01.svg);
+    background-size: 100%;
+    height: 41vw;
+    background-color: white;
+}
+
+@media screen and (max-width: 1063px) {
+    #portfoliosite_moodboard .column_wide {
+        height: 72vw;
+    }
+
+    #portfoliosite_moodboard .column_narrow {
+        text-align: left;
+    }
+}
+
+
+
+
+#portfolio_styletile .container {
+    display: flex;
+    flex-wrap: wrap;
+
+    padding: 0px;
+    background-color: #e9ece5;
+
+}
+
+#portfolio_styletile .column_narrow {
+    flex: 1;
+    flex-basis: 400px;
+    padding: 3vw;
+    align-self: center;
+    text-align: center;
+}
+
+#portfolio_styletile .column_wide {
+    flex: 2;
+    flex-basis: 600px;
+    background-image: url(img/portfolio_site/styletile_portfoliosite-01.svg);
+    background-size: 100%;
+    height: 40vw;
+    background-color: white;
+}
+
+@media screen and (max-width: 1063px) {
+    #portfolio_styletile .column_narrow {
+        order: 1;
+        text-align: left;
+    }
+
+    #portfolio_styletile .column_wide {
+        height: 69vw;
+        order: 2;
+    }
+}
+
+
+
+
+#portfolio_typografi h3 {
+    margin-top: 0px;
+}
+
+#portfolio_typografi .container {
+    padding: 100px 7vw 100px 7vw;
+    background-color: #b3c2bf;
+}
+
+
+
+
+
+#typografi_billeder {
+    background-color: #b3c2bf;
+    padding: 0 0 100px 0;
+}
+
+#typografi_billeder h3 {
+    margin-top: 0px;
+}
+
+#typografi_billeder .container_images {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 7vw 0 7vw;
+}
+
+#typografi_billeder .row1 {
+    flex: 2.67;
+
+    flex-basis: 400px;
+
+    padding: 1vw 1vw 1vw 1vw;
+
+}
+
+#typografi_billeder .row2 {
+    flex: 1.65;
+
+    flex-basis: 400px;
+
+    padding: 1vw 1vw 1vw 1vw;
+
+}
+
+#typografi_billeder img {
+    width: 100%;
+
+}
+
+
+#farver {
+    padding: 100px 7vw 100px 7vw;
+    background-color: #c1dfd9;
+
+}
+
+#farver .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#farver .farve1 {
+
+
+    flex-basis: 580px;
+    height: 200px;
+    background-color: #c1dfd9;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+
+    margin: 1vw 1vw 1vw 1vw;
+}
+
+#farver .farve2 {
+
+  flex-basis: 580px;
+    height: 200px;
+    background-color: #e9ece5;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+
+    margin: 1vw 1vw 1vw 1vw;
+}
+
+#farver .farve3 {
+
+  flex-basis: 580px;
+    height: 200px;
+    background-color: #b3c2bf;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+
+    margin: 1vw 1vw 1vw 1vw;
+}
+
+#farver .farve4 {
+
+  flex-basis: 580px;
+    height: 200px;
+    background-color: #3b3a36;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+
+    margin: 1vw 1vw 1vw 1vw;
+}
+
+#farver .overlay {
+    opacity: 0;
+}
+
+#farver .farve1:hover .overlay {
+  opacity: 1;
+}
+
+#farver .farve2:hover .overlay {
+  opacity: 1;
+}
+
+#farver .farve3:hover .overlay {
+  opacity: 1;
+}
+
+#farver .farve4:hover .overlay {
+  opacity: 1;
+}
+
+#farver .farve1:hover {
+    transform: scale(1.01);
+}
+
+#farver .farve2:hover {
+    transform: scale(1.01);
+}
+
+#farver .farve3:hover {
+    transform: scale(1.01);
+}
+
+#farver .farve4:hover {
+    transform: scale(1.01);
+}
+
+#farver .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    color: #3b3a36;
+}
+
+#farver .farve4 h4 {
+    color: #e9ece5;
+}
+
+
+
+
+#logo_proces {
+    padding: 100px 7vw 100px 7vw;
+    background-color: #b3c2bf;
+}
+
+
+
+
+
+#portfolio_logo .container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    background-color: #c1dfd9;
+
+}
+
+#portfolio_logo .column_wide {
+    flex: 2;
+    flex-basis: 600px;
+    padding: 3vw;
+    align-self: center;
+
+
+
+}
+
+#portfolio_logo .column_narrow {
+    flex: 1;
+    flex-basis: 400px;
+    background-image: url(img/forside/logo_light-01.png);
+    background-repeat: no-repeat;
+    background-size: 20vw;
+    background-position: center;
+    height: 35vw;
+    background-color: #3b3a36;
+
+
+}
+
+@media screen and (max-width: 1063px) {
+    #portfolio_logo .column_narrow {
+        height: 95vw;
+    }
+}
+
+
+
+
+
+
+#portfolio_splashimage .container {
+    display: flex;
+    flex-wrap: wrap;
+
+    padding: 0px;
+    background-color: #b3c2bf;
+
+}
+
+#portfolio_splashimage .column_narrow {
+    flex: 1;
+    flex-basis: 400px;
+    padding: 3vw;
+    align-self: center;
+
+}
+
+#portfolio_splashimage .column_wide {
+    flex: 2;
+    flex-basis: 600px;
+    background-image: url(img/forside/splash-assets/desktop.jpg);
+    background-size: 100%;
+    height: 30vw;
+    background-color: white;
+}
+
+@media screen and (max-width: 1063px) {
+    #portfolio_splashimage .column_narrow {
+        order: 1;
+        text-align: left;
+    }
+
+    #portfolio_splashimage .column_wide {
+        height: 55vw;
+        order: 2;
+    }
+}
+
+
+
+
+
+
+#portfoliosite_knapper {
+    padding: 100px 0 100px 0;
+    background-color: #3b3a36;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#portfoliosite_knapper a {
+    background-color: #3b3a36;
+    border-style: solid;
+    color: #e9ece5;
+    width: 250px;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+#portfoliosite_knapper a:hover {
+    background-color: #e9ece5;
+    border-style: solid;
+    border-color: #e9ece5;
+    color: #3b3a36;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#portfoliosite_knapper a h4 {
+    color: #e9ece5;
+    margin: 0px;
+}
+
+#portfoliosite_knapper a:hover h4 {
+    color: #3b3a36;
+}
+
+
+
+/************* portfolio site slut *******************/
