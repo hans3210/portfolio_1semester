@@ -1,0 +1,120 @@
+/************* forside *******************/
+body {
+    margin: 0px;
+}
+
+
+#splash {
+
+    height: 100vh;
+    background-image: url(img/forside/splash-assets/desktop.jpg);
+    background-size: cover;
+}
+
+@media screen and (min-width:376px) {
+    #splash {
+        background-image: url(img/forside/splash-assets/tablet_portrait.jpg);
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width:627px) and (min-width:376px) and (orientation:landscape) {
+    #splash {
+        background-image: url(img/forside/splash-assets/mobile_landscape.jpg);
+        height: 100vh;
+    }
+}
+
+@media screen and (min-width:628px) and (max-width: 1024px) and (orientation:landscape) {
+    #splash {
+        background-image: url(img/forside/splash-assets/tablet_landscape.jpg);
+
+        height: 100vh;
+    }
+}
+
+@media screen and (min-width:1025px) and (orientation:landscape) {
+    #splash {
+        background-image: url(img/forside/splash-assets/desktop.jpg);
+        height: 100vh;
+    }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1025px),
+screen and (min-resolution: 192dpi) and (min-width: 1025px) {
+    /* Retina-specific stuff here */
+    #splash {
+        background-image: url(img/forside/splash-assets/desktop_retina.jpg);
+        height: 100vh;
+    }
+}
+
+
+
+
+
+
+
+#forside .logo {
+    position: fixed;
+    top: 35%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+
+
+#forside .navbar_forside {
+
+    position: fixed;
+    top: 65%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+
+#forside .navbar_forside nav > a {
+    position: relative;
+    display: inline-block;
+    font-size: 21px;
+    line-height: 42px;
+    padding: 0 2em 0 2em;
+    color: #3b3a36;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Libre Baskerville', serif;
+
+}
+
+
+
+#forside .navbar_forside nav > a:hover {
+    color: #b3c2bf;
+}
+
+@media (max-width: 682px) {
+
+    #forside nav {
+        height: 0;
+
+
+        text-align: center;
+
+    }
+
+    #forside nav > a {
+        top: -120px;
+        display: none;
+        margin: 10px 0 10px 0;
+    }
+}
+
+
+
+
+
+
+
+/************* forside slut *******************/
