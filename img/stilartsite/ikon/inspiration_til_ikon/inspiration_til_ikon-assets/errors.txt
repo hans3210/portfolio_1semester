@@ -1,0 +1,2 @@
+[1/1/2018, 8:18:24 PM] layer "http_mashable.com_wp-content_uploads_2013_08_41-DesignDeckIcons": Expected end of input but "_" found.
+[1/1/2018, 8:18:24 PM] layer "http_mashable.com_wp-content_uploads_2013_08_46-CustomCSIcons": Expected end of input but "_" found.
